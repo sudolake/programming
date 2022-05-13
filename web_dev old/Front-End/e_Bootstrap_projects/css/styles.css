@@ -1,0 +1,164 @@
+
+
+
+/* GENERAL CLASSES */
+
+.Undecorate_links{
+    text-decoration: none;
+    color: black;
+}    
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* NAVIGATION BAR SECTION */
+.navbar{
+    padding: 0 0 4.5rem!important;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family:'Montserrat';
+    font-weight: 300;
+}
+.nav-item{padding: 0 18px;}
+
+/* editing the bootstrap navbar settings */
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* TITLE SECTION */
+#title{background-color:cornflowerblue;
+    padding: 3% 15% 0 15%;
+}
+#saygamestitle{
+    margin-left: 0!important;
+    font-family:'Ubuntu';
+    font-size:2rem!important;
+    font-weight: 400;}
+
+.phone{
+    width: 50%;
+    transform: rotate(10deg);
+    margin-bottom: 3.75rem;
+    margin-left: 11.25rem;
+    position: relative;
+    bottom: 1.56rem;
+    margin-top:1.8rem;
+}
+
+/* title section download buttons (appstore,googleplay) */
+.icon{
+    font-size:50px;
+    margin-bottom: 18px;
+    color:#ef8172;
+}
+.download-button{margin: 5% 3% 5% 0;}
+
+
+/* ---------------------------------------------------------------------- */
+
+/* FEATURE SECTION */
+
+.featurehead{
+    margin-bottom: 1.1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.featuretext{
+    font-weight: 500;
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+.icon:hover{color: #ff4c68;}
+.feature-margin{margin-top: 70px;margin-bottom: 50px;}
+
+
+/* ---------------------------------------------------------------------- */
+
+/* COROUSEL SECTION (slideshow) */
+
+.gamename{
+    text-align: center;
+    color:white;
+    margin-bottom: 0;
+    font-family: 'Varela', sans-serif;
+}
+
+.car_image{
+    margin: 30px auto 30px auto;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 109px;
+}
+
+
+.car-buttons{
+    text-align: center;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.corousel-color{background-color: cornflowerblue;}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* CONTACT AND HIRE SECTION */
+.contactp{font-size: 1rem;}
+.contacthead{
+    font-weight: 700;
+    font-size: 2rem;}
+
+
+/* ---------------------------------------------------------------------- */
+
+    /* FOOTER SECTION */
+.footercss{
+    background-color: #d4e2d4;
+    text-align: center;
+}
+
+.footer-icon{
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.bighead{font-size:3.5rem}
+
+
+
+/* @MEDIA SECTION */
+
+
+@media (max-width: 1028px){
+    .footer-icon{font-size:4rem}
+    .footer-p{font-size:1.6rem}
+    .phone{
+        transform: rotate(0);
+        position: relative;
+        right: 5.125rem;
+    }
+    .btn-lg{font-size:2rem!important;}
+
+    #title{text-align: center;}
+    .icon{
+        font-size:80px;
+
+    }
+    .featurehead{font-size: 3.2rem}
+    .featuretext{font-size:1.6rem}
+    .contactp{font-size:1.6rem}
+    .contacthead{font-size: 3.2rem;}
+    .bighead{font-size:4.8rem}
+}

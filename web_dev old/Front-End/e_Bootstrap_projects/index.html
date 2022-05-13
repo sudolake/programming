@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SayGames</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+<!-- car head font -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+<!-- favicon -->
+<script src="https://kit.fontawesome.com/d3f45f1fdd.js" crossorigin="anonymous"></script>
+<style>
+  body{font-family: 'Montserrat', sans-serif; font-weight: 400; background-color: #f7fcfe;}
+  .corouselTitle{text-align: center; padding-bottom: 30px;margin-bottom:0; padding-top:45px; font-family: 'Montserrat';font-weight: 900; font-size:3rem;}
+  .boxShadow0{box-shadow: 0 0 0 0!important;}
+</style>
+
+</head>
+
+<body id="bodyid">
+    <div class="container-fluid" id="title">
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand ms-3" id="saygamestitle" href="">SayGames</a>
+      <button class="navbar-toggler" style="box-shadow: 0 0 0 0;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item">
+              <a class="nav-link " href="mailto:info@saygames.by">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://rabota.by/employer/3478422" target="_blank">Hiring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://play.google.com/store/apps/developer?id=SayGames&hl=en ">Download</a>
+            </li>
+        </ul>
+      </div>
+  </nav>
+
+
+
+  <!-- navbar end -->
+
+<div class="row centerit">
+  <div class="col-lg-6 col-sm-12" style="margin-top: 20px;margin-bottom:30px;" >
+    <h1 class="bighead" style="font-family: 'Montserrat', sans-serif;font-weight:900;line-height: 1.5;">Play the best games you could ever dream of</h1>
+    <a href="https://apps.apple.com/vc/developer/saygames-llc/id1405039362" target="_blank">
+    <button type="button" class="btn download-button btn-dark btn-lg" style="box-shadow: 0 0 0 0;"><i class="fab fa-apple"></i> Download</button>
+    </a>
+    <a href="https://play.google.com/store/apps/developer?id=SayGames&hl=en" target="_blank">
+    <button type="button" class="btn download-button btn-outline-light btn-lg" style="box-shadow: 0 0 0 0;"><i class="fab fa-google-play"></i> Download</button>
+      </a>
+  </div>
+  <div class="col-lg-6 col-sm-12">
+    <img class="phone"src="images/iphone6.png" alt="iphone-mockup">
+
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- Features -->
+<div class="container-fluid" style="margin-top: 160px;margin-bottom: 130px;">
+<section id="features">
+<div class="row" style="text-align: center;margin: 0 0 0 0">
+  <div class="col-lg-4 col-sm-12 feature-margin">
+    <div><i class="fas fa-money-bill-wave icon"></i></div>
+    <h3 class="featurehead">Free</h3>
+  <p class="featuretext">All of our games are for free!</p>
+  </div>
+  <div class="col-lg-4 col-sm-12 feature-margin">
+    <div><i class="fas fa-fire icon"></i></div>
+  <h3 class="featurehead">Popular</h3>
+  <p class="featuretext">Over 10 mil. downloads on every game</p>
+  </div>
+  <div class="col-lg-4 col-sm-12 feature-margin">
+    <div><i class="fas fa-heart icon"></i></div>
+  <h3 class="featurehead">Enjoyable</h3>
+  <p class="featuretext">Rating over 4/5 on every game</p>
+  </div>
+</div>
+</section>
+</div>
+
+<!-- COROUSEL (animated thingy) -->
+
+<h1 class="corousel-color corouselTitle">Our most popular games</h1>
+<div id="carouselExampleIndicators" class="carousel slide corousel-color" data-pause="hover" data-bs-ride="carousel" data-bs-interval="3700" style="padding-bottom:85px;" >
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active"">
+      <h1 class="gamename">Johnny Trigger</h1>
+      <img src="images/johnny.png" class="d-block w-40 car_image" style="width: 200px;" alt="...">
+      <div class="car-buttons">
+        <a href="https://apps.apple.com/us/app/johnny-trigger/id1491328118" target="_blank">
+        <button type="button" class="btn btn-dark btn-lg boxShadow0"><i class="fab fa-apple"></i> Download</button></a>
+        ‏‏‎ ‎
+        <a href="https://play.google.com/store/apps/details?id=com.time.trigger&hl=sk&gl=US" target="_blank">
+        <button type="button" class="btn btn-outline-light btn-lg boxShadow0"><i class="fab fa-google-play"></i> Download</button></a>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <h1 class="gamename">jelly Shift</h1>
+      <img src="images/jelly.png" class="d-block w-40 car_image" style="width: 200px;" alt="...">
+      <div class="car-buttons">
+        <a href="https://apps.apple.com/us/app/jelly-shift/id1467252438" target="_blank">
+        <button type="button" class="btn btn-dark btn-lg boxShadow0"><i class="fab fa-apple"></i> Download</button></a>
+        ‏‏‎ ‎
+        <a href="https://play.google.com/store/apps/details?id=com.shape.change&hl=sk&gl=US" target="_blank">
+        <button type="button" class="btn btn-outline-light btn-lg boxShadow0"><i class="fab fa-google-play"></i> Download</button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <h1 class="gamename">Sand Balls</h1>
+      <img src="images/balls.png" class="d-block w-40 car_image" style="width: 200px;" alt="...">
+      <div class="car-buttons">
+        <a href="https://apps.apple.com/us/app/sand-balls-jigsaw-puzzle/id1474046667" target="_blank">
+        <button type="button" class="btn btn-dark btn-lg boxShadow0"><i class="fab fa-apple"></i> Download</button></a>
+        ‏‏‎ ‎
+        <a href="https://play.google.com/store/apps/details?id=com.water.balls&hl=sk&gl=US" target="_blank">
+        <button type="button" class="btn btn-outline-light btn-lg boxShadow0"><i class="fab fa-google-play"></i> Download</button></a>
+      </div>
+     </div>
+     <!-- <h3 class="see-all">See all!</h3> -->
+    
+
+
+  </div>
+  <div style="position: relative; bottom: 223px;">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+  </div>
+</div>
+
+<!-- contact saygames section  -->
+
+<div class="container-fluid" style="margin-top: 160px;margin-bottom: 130px;">
+  <section id="contact-hire">
+  <div class="row" style="text-align: center;margin: 0 0 0 0">
+
+    <div class="col-lg-6 col-sm-12" style="padding-right: 0; margin-bottom: 50px;">
+      <a class="Undecorate_links" href="mailto:info@saygames.by">
+      <div><i style="font-size: 70px; margin-bottom: 10px;" class="fas fa-envelope"></i></div>
+      <h3 class="contacthead">CONTACT</h3></a>
+    <p class="contactp">Let us know what's on your mind</p>
+    </div>
+    <div class="col-lg-6 col-sm-12" style="padding-left:0; margin-bottom: 50px;">
+      <a class="Undecorate_links" href="https://rabota.by/employer/3478422" target="_blank">
+      <div><i style="font-size: 70px;margin-bottom: 10px;" class="fas fa-users"></i></div>
+    <h3 class="contacthead">JOIN US</h3></a>
+    <p class="contactp">Make the games you see youself!</p>
+    </div>
+
+  </div>
+  </section>
+  </div>
+
+<!-- FOOTER -->
+
+
+<section id="footer">
+<div class="footercss">
+
+  <p class="footer-p" style="padding-top:2.4rem; margin-bottom: 0.8rem;">© 2021 WEB MADE BY MATEJ KRAJČOVIČ</p>
+  <a href="mailto:matej.krajcovic3@gmail.com" class="Undecorate_links" target="_blank">
+  <i class="fas fa-envelope footer-icon"></i></a>
+  <a href="https://sudolake.github.io/portfolio" class="Undecorate_links" target="_blank">
+  <i class="fas fa-globe footer-icon"></i></a>
+  <a href="https://github.com/sudolake?tab=repositories" class="Undecorate_links" target="_blank">
+  <i style="padding-bottom: 2.4rem;" class="fab fa-github footer-icon"></i></a>
+
+</section>
+
+</body>
+
+</html>

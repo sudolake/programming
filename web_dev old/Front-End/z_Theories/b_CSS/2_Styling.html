@@ -1,0 +1,59 @@
+<!-- adding an icon to your page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="icon" href="css/favicon.ico" />
+    <!-- adding an icon to your page -->
+  </head>
+
+  <body>
+    <div>
+      <!-- used to group togather parts -->
+      <h1>Matej</h1>
+      <p>a web dev</p>
+    </div>
+
+    <style>
+      .oneclass {
+        margin: 20px; /* distance from this object and other elements   - they all dont interface with the width                                                                                                                                                                                                                                                                           */
+        border: solid; /* border                                       - width and height of the element, but they add around it                                                                                                                                            */
+        padding: 10px;
+      } /* distance between border and element inside   - in the end, the width / height of the element inside stays the same                                */
+
+      .undrtext {
+        text-decoration: underline;
+      }
+    </style>
+
+    <!-- IN-LINE and BOX elements -->
+    <!-- IMPORTANT -->
+
+    <!-- box elements take up the whole width of the page (ex. text) -->
+    <!-- IN-LINE elements take only the width that they need (ex. <a>, <img>) -->
+    <!--  IN-LINEs element width cant be changed -->
+
+    <!-- HOW TO TRANSFORM BOX ELEMENT INTO A IN-LINE ELEMENT ? -->
+
+    <!-- 1. way -->
+    <p>matej is a god</p>
+    <!-- how do I only underline matej without "is a god" moving into a new line ? -->
+    <p><span class="undrtext">matej </span> is a god</p>
+    <!-- the <span> transforms "matej" into a inline element (it takes only the width it needs)                 -->
+
+    <!-- 2. way -->
+
+    <style>
+      .gayman {
+        display: inline;
+      } /* but now its width cant be changed */
+      .gaywoma {
+        display: inline-block;
+      } /* this is IN-LINE but you can change its width too} - BEST */
+    </style>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+
+
+
+<table> <!-- creates a table -->
+
+<tr> <!-- creates a table row -->
+    <td>2020-2024</td> <!-- the data in the table row, everything will be in 1 row until you close the row </tr>-->
+    <td>High-school</td>
+</tr>
+<tr>
+    <td>5000-1000</td> <!-- the data in the table row, everything will be in 1 row until you close the row </tr>-->
+    <td>lifespan</td>
+</tr>
+
+</table>
+
+
+<table>
+    <thead> <!-- the head of the table, here will be the text above the table like: "name" "age" etc. -->
+        <tr>
+            <th>Dates</th> <!-- not <td> but <th> (table header data) -->
+            <th>work</th>
+        </tr>
+    </thead>
+    <tbody> <!-- body of the table, everything here expect the head -->
+        <tr>
+            <td>2011-2020</td>
+            <td>Middle-school</td>
+        </tr>
+        <tr>
+            <td>2020-2024</td>
+            <td>High-school</td>
+        </tr>
+    </tbody>
+</table>
+
+<table border="20"></table> <!-- border size -->
+<table cellspacing="20"></table> <!-- how far they will be apart -->
+
+ <!-- INPUT -->
+ <!-- INPUT -->
+ <!-- INPUT -->
+
+ <form> <!-- everything needs to be inside a form -->
+    <label>Name:</label>
+    <input type="text"> <!-- a lot of these exist -->
+    <input type="submit">
+    <br><br>
+    <input type="file">
+
+ </form>
+
+ <form class="" action="mailto:matej.krajcovic3@gmail.com" method="POST" enctype="text/plain"> <!-- mailto will open mail and type, enctype transforms it into words -->
+    <h2>Contact me!</h2>
+    <label >Your name:</label>
+    <input name="yourName" type="text"> <!-- assigns a var name to it -->
+    <input type="submit">
+    <br><br>
+    <textarea name="yourMessage" rows="8" cols="60"></textarea>
+    <br>
+    <input type="submit">
+</form>

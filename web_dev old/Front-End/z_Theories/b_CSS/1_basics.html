@@ -1,0 +1,94 @@
+
+
+
+
+
+
+ <!-- first way -->
+<body style="background-color: aqua;">
+</body>
+
+ <!-- second way -->
+<style>
+
+     /* CSS selectors */
+
+    hr{
+        background-color:#EAF6F6 ; /* every element is a box, this changes the bg to the color of the page so that its transparent */
+        border-style: none; /* removes the border from every side */
+        border-top-style: dotted; /* adds a border to the top side so its the only one with a border */
+        border-color: grey;
+        border-width: 5px;
+        width: 7%; /* how long the line will be */
+        }
+
+    /* classes */
+    .bacon{
+        background-color: blue; /* class */
+        color: aqua;}    
+    .food{font-size: 5px;}
+
+    /* ID */                           /* class is like a name, ID is like a passport, there are more Matejs than 1, but */
+    #aheading{color: bisque;}        /*  only I have my one personal passport */
+    #secondthing{color: aqua;}                                   /* a custom ID can only be used once */
+
+    /* pseudo classes (interactive) */
+    h1:hover{color: chartreuse;} /* when hovering over it */
+
+
+
+
+</style>
+<h1 class="bacon food">hello</h1> <!-- more classes can be applied -->
+<h2 id="aheading">hello</h1>     <!-- only one ID can be applied -->
+
+<!-- EXTERNAL CSS -->
+<!-- EXTERNAL CSS -->
+<!-- THIS -->
+
+<link rel="stylesheet" href="css/style.css" <!-- put in header, rel has to be stylesheet, hreferes to the css/style.css , the style has to be css not html -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+1. !important statement - written after the color..etc. ex. <h2 style="color: red !important"></h2>
+2.in-line style   -   <h1 style=color:blue;></h1>
+3.id               -   <style>  #exampleid{color:brown;}  </style>
+4.class            -   <style>  .idk{color:cyan;}  </style> - if there are more, the one thats declared lower in the code, more recent.
+5.thesimpleone     -   <style>  h1{color:#000000;}  </style>
+-->

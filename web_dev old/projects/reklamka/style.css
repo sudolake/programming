@@ -1,0 +1,206 @@
+body{
+  background-color: whitesmoke;
+  height:100%;
+
+}
+.background-img{
+    background: url(images/background.jpg) rgb(49, 49, 49);
+
+    background-repeat: no-repeat;
+    background-size:auto;
+    height:100%
+
+
+}
+.navbar-brand{
+    padding:0;
+    padding-left:12px;
+}
+.navbar{
+    padding:0;
+    background-color:rgba(82, 82, 82, 0.17) !important;
+    
+
+    
+}
+.dropdown-menu{
+  background-color: rgb(255, 255, 255);
+  color:black
+
+
+}
+.company-img{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:-10px;
+}
+
+.navbar-nav{
+    margin-right: 80px;
+}
+.nav-link{
+    margin: left 16px;
+    margin-right:16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    text-transform: uppercase;
+    color:white!important;
+    letter-spacing: 1px;
+    
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+.down-border-kontakt{
+
+  border:none;
+  border-bottom:solid;
+  border-width: 1px;
+  border-color: rgb(153, 153, 153);
+  margin-bottom:3px;
+
+}
+.upper-border-kontakt{
+  margin-top:2px;
+
+
+}
+.first-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    margin-top:250px;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    animation: text-go-up 1.2s ease;
+    letter-spacing: 1px;
+
+}
+@keyframes text-go-up{
+
+  0%{
+    transform:translateY(30rem);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+
+
+
+.under-text{
+    margin-top:8px;
+    margin-bottom:50px;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    animation: text-go-up 1.4s ease;
+    letter-spacing: 3,5px;
+    
+}
+
+/* button */
+
+
+
+  .contact-first-button{
+    background:rgba(255, 255, 255, 0.9);
+    color:black;
+    border-radius: 5px;
+    border:none;
+    position:relative;
+    margin-bottom:100px;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none!important;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:300;
+    animation: text-go-up 1.6s ease;
+
+
+
+
+
+  }
+
+
+
+  .contact-first-button:hover{
+    background:transparent;
+    color:white;
+  }
+  .contact-first-button:before,.contact-first-button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(116, 116, 116);
+    transition:400ms ease all;
+
+  }
+  .contact-first-button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+    outline:none!important
+  }
+  .contact-first-button:hover:before,.contact-first-button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+
+
+
+  @media(max-width:995px){
+    .nav-link{
+      margin-left:8px;
+    }
+    .first-title{
+      margin-left:8px;
+      margin-right:8px;
+      letter-spacing: 2.3px;
+
+  }
+.under-text{
+       margin-left:8px;
+      margin-right:8px;
+
+      
+
+}
+.company-img{
+
+  margin-left:-5px;
+}
+
+  }
+
+  @media(max-width:800px){
+
+        .first-title{
+          font-size: 3.2rem;
+          margin-top:100px;
+          line-height: 65px;
+        }
+    }
+
+
+
+
+
+
+

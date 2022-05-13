@@ -1,0 +1,75 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.c1{
+    background-color: rgb(152, 247, 247);
+    width:200px;
+    height:200px;
+    border:solid black 2px;
+    display:inline-block
+}
+body{
+    margin:0;
+
+}
+.c2{
+    background-color: rgb(88, 88, 88);
+    width:200px;
+    height:200px;
+    border:solid black 2px;
+    display:inline-block;
+    position: relative;
+    left:210px;
+
+}
+.c3{
+    background-color: rgb(99, 43, 80);
+    width:200px;
+    height:200px;
+    border:solid black 2px;
+    display:inline-block;
+
+
+}
+
+span{
+    text-decoration:line-through;
+    font-size:30px;
+}
+h1{
+    display: inline-block;
+    /*  block
+        inline
+        inline-block
+        none / (visiblity:hidden)         */
+}
+
+/* POSITIONING */
+
+/* static - default */
+
+/* Relative 
+others behave like it is still in the default position
+right: 50px; - (moving the object) etc. */
+
+/* Absolute */
+/*
+positioning the object relatively to the parent
+taking it out of the flow of the document
+others act like it doesn't exist
+
+
+*/
+
+/* CENTERING */
+/*
+text-align:center;
+margin: 0 auto 0 auto;
+*/
+
+/* FONT SIZE */
+/*
+% - scales with your width  
+px - doesn't
+rem - scales
+*/

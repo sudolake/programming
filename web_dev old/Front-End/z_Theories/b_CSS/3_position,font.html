@@ -1,0 +1,43 @@
+
+<!-- POSITIONING -->
+
+<style>
+.staticpos{position: static;} /* default */
+
+.relativepos{position: relative;/* other elements behave like its still in its original position, they ignore that it moved */
+             left: 100px;}      /* pushes it 100 from LEFT, not to LEFT  */
+
+.absolutepos{position: absolute; /* other elements behave like it was deleted, they move up if it was above them */
+             left: 100px;}
+             
+.fixedpos{position: fixed;} /* sticks when you scroll */
+</style>
+
+
+    <!--  CENTERING -->
+<style>
+    h2{text-align: center;} /* only works if you dont change the width */
+    /*h1{margin: 0 auto 0 auto;} /* works when you change the width, auto adjusts to what the element needs (ex. text needs 100% width, <img> only some) */
+
+</style>
+
+
+<!-- FONTS -->
+
+<style>
+    .exampler{ /* these are not fonts, its the styling of them, these 3 are the most used */
+
+        font-family: serif; /* default, little legs on the bottom, def. font- Times */
+        font-family: sans-serif;  /* like serif, but no legs on the bottom def. font - Arial */
+        font-family: monospace; /* every letter has the same width */
+
+        /* what if a user doesent have the font ? */
+        font-family:Arial, Helvetica, sans-serif} /* if they dont have it, they move on to the next one */
+</style>
+
+<!--  IMPORTING FONTS, they are 99.99 % going to apply bcs google will download them to the user if they dont have it -->
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>

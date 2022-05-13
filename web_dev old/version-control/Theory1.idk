@@ -1,0 +1,22 @@
+// when starting a new project
+
+git init // initialize git
+git add . // adds everything in the folder to be commited
+git commit -m "First commit" // commits (submits)
+----------
+
+// commiting changes
+git add file_name // adds a file to be commited
+git commit -m "added files 3-5" // commits the files you add
+---------
+
+// other
+git log // see the log (who commited, when etc.)
+git status // see git's status, what files are not added etc.
+
+
+// reversing back
+
+git diff file_name // what exact changes were made to the uncommited file since the last commit
+
+git checkout file_name // reverts the file to the previous commit

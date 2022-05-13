@@ -1,0 +1,13 @@
+
+
+ls - list items
+cd - change directory (move)
+cd .. - go back
+pwd - where am I
+
+mkdir folderino - create folder
+touch texty.text - create file
+start texty.text - open it
+rm texty.text - remove file
+rm * - remove all files
+rm -r folderino - remove folder 

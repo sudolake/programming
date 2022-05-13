@@ -1,0 +1,314 @@
+
+
+
+
+/* navbar */
+nav{
+    padding-bottom: 0rem;background-color: white!important;padding-left:40px;padding-right:40px;margin-top:18px;
+
+
+}
+div button{box-shadow:0 0 0 0 !important;}
+
+.nav-link{font-size:1.4rem;
+
+            margin-right:14px;}
+.btn{
+    font-size:1.3rem!important;
+          margin-left:7px!important;
+            margin-right:7px!important;
+            border-radius: 290486px!important;
+}            
+
+
+
+
+
+
+
+/* upper section */
+.upper-section{
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem!important;
+    font-weight: 900!important;
+    margin-bottom:15px!important;
+    margin-left: 1rem!important ;
+    margin-right:1rem!important ;
+
+}
+.undertitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom:60px;
+}
+
+.prof-pic{
+    width: 190px;
+    margin-bottom:80px;
+}
+
+
+.server-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30rem;
+        height: auto;
+
+      }
+
+
+      /* purple section */
+
+.purple-color{
+    background-color: #7510F7;
+    text-align: center;
+}
+.im-matej{
+    display: block;
+    padding-top:100px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom:40px;
+}
+
+.purple-color p{
+    font-family: 'Merriweather', serif;
+    color:white;
+    margin: auto;
+    letter-spacing:1.8px;
+    padding-bottom:350px;
+    margin-right:1rem;
+    margin-left:1rem;
+    margin-bottom:115px;
+    margin-top:50px;
+
+
+}
+
+
+
+
+
+/* skills  */
+
+.skills-tab{
+    position: relative;
+    bottom:370px;
+
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:white;
+    width: 70%!important;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+
+}
+
+
+.skills-tab h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color:black;
+    font-weight: 500;
+    
+
+}
+.skills-title{
+    
+    padding-top:35px;
+    padding-bottom:5px;
+    margin-bottom: 20px;
+
+}
+.left-skill-tab{
+    border-right-color: #E6ECF8;
+    border-right-width: 1px;
+    border-right-style: solid;
+
+}
+.right-skill-tab{
+    border-left-color: #E6ECF8;
+    border-left-width: 1px;
+    border-left-style: solid;
+
+}
+
+
+
+div i{
+    color:#7510F7;
+    font-size:3.2rem;
+    margin-bottom: 40px;
+    padding-top:50px;
+}
+
+.skills-subTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#7510F7;
+    font-size:1.3rem;
+    margin-bottom: 25px;
+}
+
+.skills-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size:1.1rem;
+    margin-bottom: 32px;
+}
+
+.skills-inside-content{
+    padding-bottom: 65px;
+
+}
+.skill-not-learned{
+    color:slategrey;
+}
+
+
+
+
+/* projects */
+
+#projects h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem!important;
+    font-weight: 900!important;
+    position: relative;
+    bottom:230px;
+
+}
+#projects{
+    text-align: center;
+}
+
+#projects img{
+
+    width: 100%;
+    padding:9px!important;
+    border-radius: 8%;
+
+}
+#projects .container{
+    position: relative;
+    bottom:105px;
+}
+
+
+.no-padding{
+    padding:0!important;
+}
+.no-point{
+    margin-bottom:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#footer{
+    background-color: #7510F7;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+#footer a{
+
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3px;
+
+}
+
+#footer a:hover{
+    color:springgreen;
+}
+
+.paddingin{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+dot{
+
+    position: relative;
+    bottom:2.22px;
+
+}
+
+#footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size:1rem;
+    color:black;
+    text-align:unset!important;
+    padding-top:10px;
+    margin:0;
+
+}
+
+
+
+@media (max-width: 831px){
+    .skills-tab{
+        width: 90%!important;
+    }
+    .left-skill-tab{
+        border-bottom-color: #E6ECF8;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-right-width: 0px;
+    }
+    .right-skill-tab{
+        border-top-color: #E6ECF8;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-left-width: 0px;
+    }
+
+}
+
+
+@media (min-width: 950px){
+    .purple-color p{
+        margin-left: 20rem; 
+        margin-right: 20rem;
+
+    }
+}
+
+@media (max-width:650px){
+
+    .server-image{
+
+        width: 22rem!important;
+
+
+      }
+}
