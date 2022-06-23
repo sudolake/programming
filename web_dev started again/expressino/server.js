@@ -6,7 +6,7 @@ const req = require("express/lib/request");
 const app = express_require();
 // "/" = root
 
-app.get("/", function(request,response){
+app.get("/", function(request,response){ // what happens when a user tries to access the home route
 
     response.send("<h1>Main page</h1>")
 
